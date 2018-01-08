@@ -1,0 +1,110 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Springer Consulting</title>
+
+    <link rel="stylesheet" href="stylesheets/foundation.css" />
+    <link rel="stylesheet" href="stylesheets/style2.css" />
+
+    <style type="text/css">
+		@font-face { font-family: "Inter UI";
+    	src: url(https://rsms.me/inter/inter-ui.css);
+	</style>
+
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Lora|Nunito:400" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="splash">
+
+	<div class="nav">
+		<a href="index.html"><p>Springer Coaching</p></a>
+		<a href="bio.html"><span>About me</span></a>
+		<a href="https://calendly.com/springercoaching" target="_blank"><span>Contact</span></a>
+	</div>
+
+<div class="row bio">
+		<img src="images/biobg.png">
+
+	<div class="large-8 large-offset-3 medium-8 medium-offset-4 small-12 bg">
+		<p>I am motivated by bettering others and seeing results from my investment in them. I care deeply about each person finding purpose and satisfaction in their lives.</p>
+		<p>What qualifies me to be a career coach? I am undergoing HR Management training with the <a href="https://www.cipd.co.uk/" target="_blank">Chartered Institute of Personnel Development</a>. This includes coursework in business coaching and mentoring. Additionally, I currently work in human resources for Harley-Davidson Motor Company, where I actively participate in the recruitment and onboarding of new employees. I also know other industries, having held previous positions with legal, faith-based, and higher education institutions. More than anything I am willing to listen to your needs and give you practical advice and honest feedback which will help you take meaningful steps forward in your career.</p>
+
+		<span>PS - for all you Gallup Strengths geeks, my top 5 are:</span>
+		<ul>
+				<li>1) Positivity</li>
+				<li>2) Woo</li>
+				<li>3) Empathy</li>
+				<li>4) Adaptability</li>
+				<li>5) Developer</li>
+		</ul>
+
+</div>	
+</div>
+
+</div>
+
+
+<div class="footer">
+	<div class="row align-center spacer">
+		<div class="large-4 medium-5 medium-offset-1 small-10">
+			<h3>LET'S CONNECT</h3>
+			<a href="https://calendly.com/springercoaching" target="_blank"><btn class="third">Schedule a free 15 min call</btn></a>
+			<h4>AVAILABILITY</h4>
+			<p>I offer in-person (Oxford, UK area only) or Skype (global) sessions at affordable hourly rates.</p>
+		</div>
+		<div class="large-4 medium-4 small-10 column">
+			<h4>FIND ME ON SOCIAL MEDIA</h4>
+			<a href="https://linkedin.com/in/joel-springer-65179722" target="_blank"><img src="images/linkedin.png"></a>
+			<a href="https://twitter.com/SpringerJoel" target="_blank"><img src="images/twitter.png"></a>
+			<a href="https://www.facebook.com/springer.joel" target="_blank"><img src="images/fb.png"></a>
+
+			<h4>SEND ME AN EMAIL</h4>
+			<a href="mailto:joel@springercoaching.com">joel@springercoaching.com</a>
+		</div>
+</div>
+
+
+</div>
+
+<script>
+$(function() {
+  // This will select everything with the class smoothScroll
+  // This should prevent problems with carousel, scrollspy, etc...
+  $('.smoothScroll').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+
+// Change the speed to whatever you want
+// Personally i think 1000 is too much
+// Try 800 or below, it seems not too much but it will make a difference
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
